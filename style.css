@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    background: linear-gradient(135deg , #121212 ,#454545 ,#676767,#898989);
+}
+
+.container{
+    width: 480px;
+    height: 580px;
+    background: linear-gradient(135deg , #00feba , #5b548a);
+    border-radius: 50px;
+    justify-items: center;
+    box-shadow: 10px 10px 20px #232323;
+}
+
+.container>h1{
+    font-size: 48px;
+    margin-top: 12px;
+    color: #232323;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.search-menu>input{
+    width: 360px;
+    height: 36px;
+    border-radius: 50px;
+    border: 2px solid #232323;
+    margin-top: 24px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 18px ;
+    padding: 0px 0px 0px 12px;
+    font-weight: 500;
+}
+
+.search-menu>input::placeholder{
+    font-size: 18px;
+    padding: 0px 0px 0px 12px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.search-menu>input:focus{
+    font-size: 18px;
+    padding: 0px 0px 0px 12px;
+    color: #fff;
+    font-weight: 500;
+    border: 2px solid #121212;
+    box-shadow: 3px 3px 6px #232323;
+}
+
+.container .searchbtn{
+    height: 20px;
+    position: relative;
+    right: 36px;
+    top: 4px;
+}
+
+.temp-details>.col{
+    justify-items: center;
+    text-align: center;
+}
+
+.temp-img{
+    height: 180px;
+    margin-top: 12px;
+}
+
+.col h1{
+    color: #232323;
+    margin-top: -12px;
+}
+
+.col h2{
+    color: #121212;
+}
+
+.bottom-temp{
+    display: flex;
+    margin-top: 48px;
+    gap: 24px;
+}
+
+.bottom-temp>.feel , .bottom-temp>.speed{
+    display: flex;
+    gap: 18px;
+    text-align: center;
+    color: #232323;
+}
+
+.feel>img , .speed>img{
+    height: 60px;
+}
+
